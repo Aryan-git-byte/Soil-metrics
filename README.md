@@ -163,5 +163,4 @@ it is around of 3 hr.
 so yeah this was all the previous ragebait + breakdown moments, now i m thinking to start it again but with appropriate modules and not doing bruteforce or smthg like i did till yet. 
 
 ## onto proper v3, bbut this time with a proper plan and a pcb  
-#   S o i l - m e t r i c s  
- 
+
