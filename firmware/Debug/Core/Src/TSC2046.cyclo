@@ -1,0 +1,11 @@
+../Core/Src/TSC2046.c:42:10:TSC2046_SendCommand	2
+../Core/Src/TSC2046.c:59:6:TSC2046_Calibrate	5
+../Core/Src/TSC2046.c:210:18:TSC2046_GetRawTouch	5
+../Core/Src/TSC2046.c:249:7:TSC2046_Begin	1
+../Core/Src/TSC2046.c:263:10:TSC2046_getRaw_X	1
+../Core/Src/TSC2046.c:268:10:TSC2046_getRaw_Y	1
+../Core/Src/TSC2046.c:273:10:TSC2046_getRaw_Z	1
+../Core/Src/TSC2046.c:280:6:TSC2046_TL_point	1
+../Core/Src/TSC2046.c:286:6:TSC2046_BR_point	1
+../Core/Src/TSC2046.c:293:9:TSC2046_getOrientation	1
+../Core/Src/TSC2046.c:299:19:TSC2046_GetTouchData	3
