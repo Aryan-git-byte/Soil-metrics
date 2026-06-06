@@ -1,0 +1,23 @@
+idf_component_register(
+    SRCS
+        "app_main.c"
+        "app_state.c"
+        "display_i80.c"
+        "rs485_modbus.c"
+        "sd_storage.c"
+        "shared_spi.c"
+        "sim7080.c"
+        "soil_sensor.c"
+        "touch_tsc2046.c"
+        "ui.c"
+    INCLUDE_DIRS "."
+    REQUIRES
+        driver
+        esp_lcd
+        esp_timer
+        esp_psram
+        esp_driver_sdspi
+        fatfs
+        lvgl
+        sdmmc
+)
