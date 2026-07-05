@@ -141,7 +141,7 @@ And expect those you need to order these:
 |SmartElex 3.5" TFT Resistive Touch Display 320x480| [here](https://robu.in/product/smartelex-3-5-tft-resistive-touch-display-320x480/)|917 rs
 | ZTS-3002-TR-*-N01|[here]( https://robu.in/product/multi-parameter-sensor/)|4396 rs
 |2 x 18650 batteries | [here](https://robu.in/product/sony-vtc6-18650-li-ion-3000-mah-battery/)|699 rs each
-| PCB + Stencil | I'll get it from LionCircuits| Sub-8K rs
+| PCB + Stencil | | Sub-8K rs
 
 ---
 
