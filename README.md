@@ -87,13 +87,13 @@ The hardware is designed on a 4 layer PCB, The complete design files are availab
 
 Configure ESP-IDF
 
-```bash
+```
 idf.py set-target esp32s3
 ```
 
 Build
 
-```bash
+```
 idf.py build
 ```
 
@@ -105,13 +105,13 @@ Connect the board using USB.
 
 Flash
 
-```bash
+```
 idf.py flash
 ```
 
 Open Serial Monitor
 
-```bash
+```
 idf.py monitor
 ```
 
