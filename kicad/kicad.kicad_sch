@@ -4107,6 +4107,197 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:CDRH104R-220NC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CDRH104R-220NC"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:IND-SMD_L10.2-W10.0_SRR1050HA"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C19512686.pdf"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Sumida(胜美达)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "CDRH104R-220NC"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C19512686"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Power Inductors"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CDRH104R-220NC_0_1"
+				(arc
+					(start -4.06 0.01)
+					(mid -3.035 1.0102)
+					(end -2.03 -0.01)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.03 0.01)
+					(mid -1.005 1.0102)
+					(end 0 -0.01)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.01)
+					(mid 1.0249 1.0101)
+					(end 2.03 -0.01)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.03 0.01)
+					(mid 3.0549 1.0101)
+					(end 4.06 -0.01)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -4946,10 +5137,10 @@
 		(uuid "0b054943-1942-4f1d-8da9-8cbcdc2bfd7f")
 	)
 	(junction
-		(at 185.42 38.1)
+		(at 97.79 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "20439aaa-600a-4f31-84a7-c133883f1782")
+		(uuid "1c5167e4-81f7-4706-8719-47c6aed1a0bd")
 	)
 	(junction
 		(at 82.55 96.52)
@@ -5024,6 +5215,12 @@
 		(uuid "6894bbac-9ebd-485a-8552-6b82da20239a")
 	)
 	(junction
+		(at 185.42 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68e0e8c3-f3fd-4e2f-93fd-a719fcc1b26f")
+	)
+	(junction
 		(at 173.99 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5034,12 +5231,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7fdf42dc-d0f8-4eb5-889b-34e3c6a43563")
-	)
-	(junction
-		(at 95.25 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84d38008-16f4-4028-8f8d-d70348202524")
 	)
 	(junction
 		(at 85.09 127)
@@ -5090,12 +5281,6 @@
 		(uuid "a66f6bd8-0017-45f5-8b4b-fa93cb17f268")
 	)
 	(junction
-		(at 185.42 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab4950bc-7985-45fb-8e65-49476b61b0bb")
-	)
-	(junction
 		(at 135.89 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5114,10 +5299,16 @@
 		(uuid "af545bf4-926c-47a7-91ea-10798dbfb2ea")
 	)
 	(junction
-		(at 95.25 100.33)
+		(at 97.79 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e4a359d9-52a7-4b35-82f4-9d1fb8f99488")
+		(uuid "b2e9c10c-39b4-4842-931c-6b9395f95647")
+	)
+	(junction
+		(at 185.42 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bcedbade-9abb-4473-ab80-02b3e7bded44")
 	)
 	(junction
 		(at 226.06 33.02)
@@ -5429,7 +5620,17 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 96.52) (xy 93.98 96.52)
+			(xy 162.56 27.94) (xy 162.56 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d80acc8-f27f-4131-bc4e-540f66b7584c")
+	)
+	(wire
+		(pts
+			(xy 93.98 96.52) (xy 97.79 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5549,13 +5750,23 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 96.52) (xy 95.25 100.33)
+			(xy 97.79 96.52) (xy 97.79 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3be58566-b1e5-4f41-96b4-197c5bef44db")
+	)
+	(wire
+		(pts
+			(xy 185.42 27.94) (xy 193.04 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cd03a9b-7074-4a6f-893c-f5ce29d52a1c")
 	)
 	(wire
 		(pts
@@ -5719,7 +5930,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 30.48) (xy 193.04 35.56)
+			(xy 193.04 27.94) (xy 193.04 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5949,13 +6160,23 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 30.48) (xy 193.04 30.48)
+			(xy 162.56 27.94) (xy 185.42 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9e969e3f-84c4-4363-98b0-784f20db7216")
+	)
+	(wire
+		(pts
+			(xy 97.79 96.52) (xy 110.49 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a011383b-0ce8-4fae-b410-31eaa7f903de")
 	)
 	(wire
 		(pts
@@ -6149,16 +6370,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 100.33) (xy 97.79 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c44b9716-3a9c-4914-b9eb-65154f51cfc6")
-	)
-	(wire
-		(pts
 			(xy 279.4 38.1) (xy 279.4 41.91)
 		)
 		(stroke
@@ -6219,16 +6430,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 30.48) (xy 185.42 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d36def2f-aa57-463f-9057-7634ee4bf67c")
-	)
-	(wire
-		(pts
 			(xy 85.09 100.33) (xy 86.36 100.33)
 		)
 		(stroke
@@ -6279,7 +6480,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 100.33) (xy 95.25 100.33)
+			(xy 93.98 100.33) (xy 97.79 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6326,16 +6527,6 @@
 			(type default)
 		)
 		(uuid "e3594878-920d-4785-b383-45ba05182290")
-	)
-	(wire
-		(pts
-			(xy 95.25 96.52) (xy 110.49 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e76da3ee-3a2b-45f4-be72-bc98c6e2cb79")
 	)
 	(wire
 		(pts
@@ -6508,7 +6699,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "006b40ce-bbdc-4de9-bac7-ef4ea4b65284")
-		(property "Reference" "C7"
+		(property "Reference" "C14"
 			(at 229.616 95.758 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6563,6 +6754,39 @@
 				)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 229.87 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 229.87 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 229.87 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7ec62870-22ae-4fd5-bd12-cdf3177e1502")
 		)
@@ -6572,7 +6796,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "C7")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -6590,7 +6814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02190e51-52f8-4e3b-8efa-386f060a655d")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR03"
 			(at 26.67 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -6650,7 +6874,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "#PWR025")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6667,7 +6891,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "08ad311d-9446-48ec-aab8-6318c63d5a50")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR020"
 			(at 173.99 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -6727,7 +6951,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "#PWR07")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -6745,7 +6969,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0af06da0-401a-43f6-bbbe-af8d3ebb669f")
-		(property "Reference" "R28"
+		(property "Reference" "R4"
 			(at 69.596 124.206 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6779,7 +7003,7 @@
 		(property "Datasheet" ""
 			(at 66.04 123.19 0)
 			(hide yes)
-			(show_name no)
+			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -6788,6 +7012,39 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 66.04 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" "https://robu.in/product/ac0805jr-076k8l-yageo-res-thick-film-0805-6-8k-ohm-5-0-125w1-8w-%25c2%25b1100ppm-c-pad-smd-t-r-automotive-aec-q200/"
+			(at 66.04 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.87"
+			(at 66.04 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 66.04 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -6807,7 +7064,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "R28")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6867,6 +7124,61 @@
 			)
 		)
 		(property "Description" ""
+			(at 153.67 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "67"
+			(at 153.67 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" "http://robu.in/product/tp5100-toppower-5v12v-lithium-ion-polymer-12-2a-tqfn-16-ep4x4-battery-management-rohs/"
+			(at 153.67 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 153.67 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 153.67 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 153.67 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -6948,7 +7260,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1038d608-84fd-410f-8c58-374086cae178")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR018"
 			(at 162.56 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7008,7 +7320,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "#PWR015")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7026,7 +7338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10d9fd1d-50aa-45df-94a5-a0071fecf24f")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR030"
 			(at 255.27 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -7086,7 +7398,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "#PWR022")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -7104,7 +7416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11fa8b00-6358-4407-bf50-4f2c0ca15e4d")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR06"
 			(at 57.15 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -7164,7 +7476,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "#PWR027")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -7234,6 +7546,61 @@
 				)
 			)
 		)
+		(property "Link" "https://robu.in/product/dc-jack-005/"
+			(at 97.79 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "2.23"
+			(at 97.79 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 97.79 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 97.79 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 97.79 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "b1a2b45a-dbce-4986-bbb8-f06c7ce12a7e")
 		)
@@ -7264,7 +7631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ab244d2-ba60-4db6-ab7c-4ae86bdc5e78")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR015"
 			(at 146.05 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -7324,7 +7691,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "#PWR028")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7342,7 +7709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ab5531a-3931-4338-aa7d-737e28b3aeb4")
-		(property "Reference" "D1"
+		(property "Reference" "D4"
 			(at 195.58 38.0999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7419,6 +7786,39 @@
 				)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 193.04 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 193.04 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 193.04 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "95f06c3f-4a66-4e3d-bce1-531b099bc640")
 		)
@@ -7428,7 +7828,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "D1")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -7446,7 +7846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20e3a8f7-7798-4e93-a84c-228561ed72cc")
-		(property "Reference" "L3"
+		(property "Reference" "L1"
 			(at 90.17 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7466,7 +7866,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_10.4x10.4_H4.8"
+		(property "Footprint" "easyeda2kicad:IND-SMD_L10.2-W10.0_SRR1050HA"
 			(at 90.17 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -7499,6 +7899,28 @@
 				)
 			)
 		)
+		(property "Link" "https://robu.in/product/cdrh104r-10%CE%BCh-power-inductor-pack-of-5/"
+			(at 90.17 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "15"
+			(at 90.17 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "53ac4857-385a-4892-a94c-db805ef8fd62")
 		)
@@ -7508,7 +7930,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "L3")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -7526,7 +7948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24b89d6f-1a60-4139-9d7b-d111fbd43706")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR017"
 			(at 158.75 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -7586,7 +8008,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "#PWR029")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7604,7 +8026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24d0b13f-d36f-4221-99fb-a0fcb383ff9a")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR04"
 			(at 31.75 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7664,7 +8086,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "#PWR01")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -7736,8 +8158,19 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 133.35 39.37 0)
+		(property "Link" "https://robu.in/product/0805-surface-mount-led-green-50-pcs/"
+			(at 133.35 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "2.62"
+			(at 133.35 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7860,6 +8293,39 @@
 				)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 265.43 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 265.43 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 265.43 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "16d951a2-2d39-4d8b-aaee-3021359ff811")
 		)
@@ -7890,7 +8356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d08c3d3-b8f8-4340-841d-4c74bdb9606f")
-		(property "Reference" "C23"
+		(property "Reference" "C1"
 			(at 30.48 95.6309 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7945,6 +8411,28 @@
 				)
 			)
 		)
+		(property "Link" "https://robu.in/product/efvl063ada100m0654-follon-10uf-63v-%C2%B120-smdd6-3xl5-4mm-aluminum-electrolytic-capacitors-smd-rohs/"
+			(at 26.67 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "2.09"
+			(at 26.67 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "eae175ea-0905-4857-9af9-e162466a6522")
 		)
@@ -7954,7 +8442,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "C23")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -7971,7 +8459,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2d40751e-8654-4ad5-be70-83dec355f4e7")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 53.594 26.924 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8024,6 +8512,28 @@
 				)
 			)
 		)
+		(property "Link" "https://robu.in/product/af0805fr-075k1l-yageo-5-1k%CF%89-%C2%B11-125mw-thick-film-%C2%B1100ppm-%E2%84%83-0805-chip-resistor-surface-mount-rohs/"
+			(at 53.34 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "1.57"
+			(at 53.34 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bbabc32a-ea99-426b-a7f6-3bb2cf6c1b43")
 		)
@@ -8033,7 +8543,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -8094,6 +8604,61 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 31.75 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" "http://robu.in/product/type-c-31-m-12-hroparts-5a-1-16p-female-type-c-smd-usb-connectors-rohs/"
+			(at 31.75 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "38"
+			(at 31.75 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 31.75 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 31.75 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 31.75 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8175,7 +8740,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f3abd7d-82f4-4e1d-9456-110dd6990716")
-		(property "Reference" "C9"
+		(property "Reference" "C8"
 			(at 145.796 95.758 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8230,6 +8795,39 @@
 				)
 			)
 		)
+		(property "Link" "https://robu.in/product/21br61a226me51k-murata-cap-smd-mlcc-22-%c2%b5f-10-v-0805-pack-of-1/"
+			(at 146.05 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "9"
+			(at 146.05 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 146.05 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5e6b4abd-3b02-4574-8096-75fe21748be6")
 		)
@@ -8239,7 +8837,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "C9")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -8257,7 +8855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "300f7cce-65af-438f-ad1e-d5826032a699")
-		(property "Reference" "U3"
+		(property "Reference" "U5"
 			(at 257.81 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8310,6 +8908,61 @@
 				)
 			)
 		)
+		(property "Link" "https://robu.in/product/hy2120-cb-hycon-tech-1-5v10v-lithium-ion-polymer-2-sot-23-6-battery-management-rohs/"
+			(at 251.46 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "21"
+			(at 251.46 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 251.46 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 251.46 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 251.46 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "87c99135-399b-46e7-9285-2180e86f76af")
 		)
@@ -8331,7 +8984,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "U3")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -8349,7 +9002,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "320b5442-0c91-4a0c-800f-d8d102f992da")
-		(property "Reference" "U6"
+		(property "Reference" "U1"
 			(at 61.468 87.884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8439,7 +9092,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Price" "None"
+		(property "Price" "40"
 			(at 61.722 86.106 0)
 			(hide yes)
 			(show_name no)
@@ -8499,6 +9152,50 @@
 				(justify bottom)
 			)
 		)
+		(property "Link" "https://ifuturetech.org/product/mp2307-3a-23v-340khz-synchronous-rectified-step-down-converter-ic-sop-8/"
+			(at 58.42 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 58.42 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 58.42 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 58.42 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "9"
 			(uuid "b5207dd4-01c0-4bfc-8d85-4a198590fe9c")
 		)
@@ -8529,7 +9226,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "U6")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -8546,7 +9243,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3373a637-df0e-4ae9-9746-7e2df0cbaf7b")
-		(property "Reference" "R24"
+		(property "Reference" "R6"
 			(at 90.17 98.298 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8599,6 +9296,50 @@
 				)
 			)
 		)
+		(property "Link" "https://robu.in/product/ac0805fr-0730k9l-yageo-125mw-thick-film-resistors-150v-%C2%B1100ppm-%E2%84%83-%C2%B11-30-9k%CF%89-0805-chip-resistor-surface-mount-rohs/"
+			(at 90.17 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 90.17 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 90.17 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "1.13"
+			(at 90.17 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ed75cf27-ad1e-40cd-a2b2-a202f0336a81")
 		)
@@ -8608,7 +9349,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "R24")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -8626,7 +9367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "362b8677-52ea-4617-9ca6-199b1c55eda4")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR012"
 			(at 128.27 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -8686,7 +9427,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "#PWR014")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8703,7 +9444,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3fbf6cfa-a19d-429a-8128-7c472090c80e")
-		(property "Reference" "C1"
+		(property "Reference" "C10"
 			(at 173.736 41.148 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8758,6 +9499,39 @@
 				)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 173.99 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 173.99 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 173.99 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7341f792-b765-4f50-a5c0-8b6c43f84545")
 		)
@@ -8767,7 +9541,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "C1")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -8785,7 +9559,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "40d7be3d-3703-4586-828d-882fbf750cd7")
-		(property "Reference" "BT2"
+		(property "Reference" "BT1"
 			(at 221.742 30.226 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8840,8 +9614,8 @@
 				)
 			)
 		)
-		(property "Sim.Device" "V"
-			(at 219.71 33.02 0)
+		(property "Link" "https://hubtronics.in/1s-18650-holder-smd?srsltid=AfmBOor3Tc6zfQg7KerfEIS3zsZkHQCD7dC4h8XjsbvY8JfF8_P2kyrYU8s"
+			(at 219.71 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8851,8 +9625,8 @@
 				)
 			)
 		)
-		(property "Sim.Type" "DC"
-			(at 219.71 33.02 0)
+		(property "Price" "57.82"
+			(at 219.71 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8862,8 +9636,30 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 219.71 33.02 0)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 219.71 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 219.71 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 219.71 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8882,7 +9678,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "BT2")
+					(reference "BT1")
 					(unit 1)
 				)
 			)
@@ -8899,7 +9695,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42de0e8e-574f-4600-8f56-db2bf1def823")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR022"
 			(at 180.34 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -8959,7 +9755,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "#PWR06")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -9031,6 +9827,28 @@
 				)
 			)
 		)
+		(property "Link" "https://robu.in/product/1k-ohm-1-4w-0805-surface-mount-chip-resistor-pack-of-10/"
+			(at 135.89 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.54"
+			(at 135.89 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "944cd40e-d3bd-4f6b-8f1e-b98786733e27")
 		)
@@ -9059,7 +9877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45114b16-db78-4552-95dd-3b73489ee80e")
-		(property "Reference" "D4"
+		(property "Reference" "D1"
 			(at 114.3 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9112,7 +9930,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
+		(property "Link" "https://evelta.com/schottky-diode-1a-sma-ss110/"
 			(at 114.3 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -9123,7 +9941,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Price" "2.70"
 			(at 114.3 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -9143,7 +9961,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "D4")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -9161,7 +9979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46217acc-4ce4-481f-8b2f-25ffbbf78b53")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR08"
 			(at 97.79 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -9221,7 +10039,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "#PWR010")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -9238,7 +10056,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4927e3f0-f589-4d76-9e46-45c8fe8a3185")
-		(property "Reference" "R3"
+		(property "Reference" "R8"
 			(at 187.96 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9260,7 +10078,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 183.642 41.91 90)
 			(hide yes)
 			(show_name no)
@@ -9293,6 +10111,28 @@
 				)
 			)
 		)
+		(property "Link" "https://robu.in/product/rl1206fr-070r068l-yageo-250mw-thick-film-resistors-%25c2%25b11000ppm-%25e2%2584%2583-%25c2%25b11-0-068%25cf%2589-1206-chip-resistor-surface-mount-rohs/"
+			(at 185.42 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "2.08"
+			(at 185.42 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "aa2826d2-5050-480b-99c0-ee450ee6e386")
 		)
@@ -9302,7 +10142,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "R3")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -9320,7 +10160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e988e05-96b6-437b-9522-e78496583a54")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR019"
 			(at 171.45 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -9380,7 +10220,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "#PWR030")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9398,7 +10238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fb4ba23-df51-4d53-bebc-28c6ae8e5b60")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR021"
 			(at 179.07 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -9458,7 +10298,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "#PWR024")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -9476,7 +10316,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "524758c7-e988-4ee7-b4ca-7a80d7015724")
-		(property "Reference" "C24"
+		(property "Reference" "C2"
 			(at 40.132 112.522 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9487,7 +10327,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 40.132 108.458 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9540,7 +10380,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "C24")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -9611,7 +10451,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "NMOS"
+		(property "Link" "https://robu.in/product/cmn2310m-cmos-smd-mos-sot-23-n-field-1-25w-10%C2%B1v/"
 			(at 236.855 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -9622,19 +10462,8 @@
 				)
 			)
 		)
-		(property "Sim.Type" "VDMOS"
+		(property "Price" "1.78"
 			(at 234.95 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 238.76 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9674,7 +10503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5413b73e-6f19-4c57-b2c6-8732b2ae84b7")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR031"
 			(at 262.89 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -9734,7 +10563,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "#PWR019")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -9752,7 +10581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c7c2bdb-29dc-4ccc-925a-688d86425403")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR05"
 			(at 39.37 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -9812,7 +10641,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "#PWR026")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -9883,6 +10712,61 @@
 				)
 			)
 		)
+		(property "Link" "https://robu.in/product/ld1117s50tr-stmicroelectronics-voltage-regulator/"
+			(at 242.57 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "17"
+			(at 242.57 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 242.57 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 242.57 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 242.57 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fe611ee9-b260-4b01-93c5-75457bd16d8f")
 		)
@@ -9913,7 +10797,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "643b6e73-4da0-4a2c-940a-fecaf15adc39")
-		(property "Reference" "R23"
+		(property "Reference" "R1"
 			(at 48.006 89.154 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9966,6 +10850,39 @@
 				)
 			)
 		)
+		(property "Link" "https://robu.in/product/yageo-100k-ohm-1-2w-0805-surface-mount-resistor-pack-of-50/"
+			(at 44.45 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.54"
+			(at 44.45 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 44.45 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8dde9853-f1bc-42a0-b2f9-0a93c7854663")
 		)
@@ -9975,7 +10892,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "R23")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -9992,7 +10909,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6bdb0fc8-a600-4e30-a544-b61530b32379")
-		(property "Reference" "C2"
+		(property "Reference" "C12"
 			(at 180.086 41.148 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10047,6 +10964,39 @@
 				)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 180.34 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 180.34 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 180.34 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6cbc4128-7967-4955-a44b-73e2a00a804c")
 		)
@@ -10056,7 +11006,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "C2")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -10074,7 +11024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6be3106d-ec59-478d-a719-be8aff675368")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR026"
 			(at 222.25 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -10134,7 +11084,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "#PWR018")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -10206,7 +11156,18 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Link" "https://robu.in/product/0805-surface-mount-led-red-50-pcs/"
+			(at 139.7 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "1.44"
 			(at 139.7 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10244,7 +11205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79c40536-47ff-4532-97c0-eae80072f092")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR033"
 			(at 279.4 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -10304,7 +11265,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "#PWR011")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -10322,7 +11283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d1fb897-bc16-4336-b4b6-a4fef40c8bd0")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR010"
 			(at 110.49 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -10382,7 +11343,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "#PWR017")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -10400,7 +11361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "811a41e3-ec4b-4799-8270-f4e482f52971")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR09"
 			(at 105.41 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -10460,7 +11421,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "#PWR012")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -10478,7 +11439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81f4a8bb-cf34-4476-ad4b-9b62271eba6d")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR014"
 			(at 142.24 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -10538,7 +11499,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "#PWR016")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -10556,7 +11517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "887d6abc-e26d-4a1a-9c72-1ede18397eb0")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR029"
 			(at 242.57 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -10616,7 +11577,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "#PWR021")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -10633,7 +11594,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "890148fb-fef9-480b-ab4f-1cbdefb7032e")
-		(property "Reference" "R4"
+		(property "Reference" "R9"
 			(at 240.03 28.956 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10686,6 +11647,28 @@
 				)
 			)
 		)
+		(property "Link" "https://robu.in/product/rc0805fr-07100rl-yageo-res-thick-film-0805-100-ohm-1-0-125w1-8w-%C2%B1100ppm-c-pad-smd-t-r/"
+			(at 240.03 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.35"
+			(at 240.03 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0e6cdc5d-774d-40ea-b37f-305a07c13580")
 		)
@@ -10695,7 +11678,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "R4")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -10712,7 +11695,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a99076c-72f1-416e-bf3e-ad5761792143")
-		(property "Reference" "C8"
+		(property "Reference" "C15"
 			(at 255.016 95.758 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10767,6 +11750,39 @@
 				)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 255.27 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 255.27 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 255.27 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3eef4891-38e7-4163-b581-5c0b6d565a9a")
 		)
@@ -10776,7 +11792,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "C8")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -10793,7 +11809,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b72d89f-f54b-4895-a62f-f25c1333df64")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR023"
 			(at 187.96 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -10853,7 +11869,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "#PWR05")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10870,7 +11886,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8bbfdaeb-f15e-4cd8-9e32-ace5b68a9047")
-		(property "Reference" "R5"
+		(property "Reference" "R10"
 			(at 240.03 40.894 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10923,6 +11939,39 @@
 				)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 240.03 36.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 240.03 36.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 240.03 36.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f9f300a0-100e-4775-b3a8-68160ac2fc82")
 		)
@@ -10932,7 +11981,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "R5")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -10949,7 +11998,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9425f0bf-b1c4-4be9-8e4f-ffcad747cdb3")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR025"
 			(at 199.39 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -11009,7 +12058,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "#PWR023")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -11027,7 +12076,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "95196d94-8d23-4bfa-ad27-32d21200a4a5")
-		(property "Reference" "C26"
+		(property "Reference" "C3"
 			(at 66.802 117.602 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11082,6 +12131,39 @@
 				)
 			)
 		)
+		(property "Link" "https://robu.in/product/tcc0805x7r392k500dt-cctc-smt-ceramic-capacitors-0805-x7r-392k3-9nf%C2%B110-rated-voltage50v-thickness0-85mmtape/"
+			(at 66.04 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.29"
+			(at 66.04 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 66.04 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c6266d94-7dda-461d-8dfd-80a4dbb86090")
 		)
@@ -11091,7 +12173,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "C26")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -11108,7 +12190,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c12d94f-61a5-41e1-a48f-18a35152f4a8")
-		(property "Reference" "R26"
+		(property "Reference" "R5"
 			(at 88.646 115.062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11161,6 +12243,39 @@
 				)
 			)
 		)
+		(property "Link" "https://robu.in/product/rc0805fr-0710kl-yageo-res-thick-film-0805-10k-ohm-1-0-125w1-8w-%C2%B1100ppm-c-pad-smd-t-r/"
+			(at 85.09 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.80"
+			(at 85.09 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 85.09 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e4e0c33d-043f-42d7-ad08-74c3919dc1f0")
 		)
@@ -11170,7 +12285,111 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "R26")
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:CDRH104R-220NC")
+		(at 185.42 33.02 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ce05742-3294-42ba-a155-5db31ff27aff")
+		(property "Reference" "U10"
+			(at 187.96 31.7499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CDRH104R-220NC"
+			(at 187.96 34.2899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:IND-SMD_L10.2-W10.0_SRR1050HA"
+			(at 177.8 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19512686.pdf"
+			(at 175.26 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" "https://robu.in/product/cdrh104r-22%CE%BCh-power-inductor-pack-of-5/"
+			(at 170.18 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "17"
+			(at 167.64 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "43510f7d-7046-4be5-bdb7-76f9b637f851")
+		)
+		(pin "1"
+			(uuid "cbfe4a09-3c2a-4fa1-8c9d-589360a8fa11")
+		)
+		(instances
+			(project "kicad"
+				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -11187,7 +12406,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1576bc7-0618-49ab-b1ab-c0ec4b8c3e11")
-		(property "Reference" "C3"
+		(property "Reference" "C11"
 			(at 173.736 50.038 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11242,6 +12461,39 @@
 				)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 173.99 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 173.99 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 173.99 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b7c705a0-83ee-490e-9099-cb8d15af30e9")
 		)
@@ -11251,7 +12503,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "C3")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -11269,7 +12521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a34d9696-14de-418b-a656-342937a49127")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR013"
 			(at 138.43 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -11329,7 +12581,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "#PWR032")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -11346,7 +12598,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a95c4373-1255-4d1b-b596-b0f992d18409")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 53.34 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11399,6 +12651,28 @@
 				)
 			)
 		)
+		(property "Link" "https://robu.in/product/af0805fr-075k1l-yageo-5-1k%CF%89-%C2%B11-125mw-thick-film-%C2%B1100ppm-%E2%84%83-0805-chip-resistor-surface-mount-rohs/"
+			(at 53.34 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "1.57"
+			(at 53.34 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ca9b5ca2-e3f4-45a1-a321-9e41f1c716ec")
 		)
@@ -11408,89 +12682,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 185.42 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae2a020c-8a92-4244-92bf-beb627bddd98")
-		(property "Reference" "L1"
-			(at 186.69 33.0199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uH"
-			(at 186.69 35.5599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_10.4x10.4_H4.8"
-			(at 185.42 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 185.42 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9dbe6d50-fc41-4492-81ab-2f5d2180b6ed")
-		)
-		(pin "1"
-			(uuid "3c1af605-d185-48ef-9ada-8fb28bca913f")
-		)
-		(instances
-			(project "kicad"
-				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "L1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -11507,7 +12699,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b53765b5-f1cb-4f57-93b0-a03c2d6a0460")
-		(property "Reference" "C19"
+		(property "Reference" "C4"
 			(at 73.914 81.534 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11562,6 +12754,39 @@
 				)
 			)
 		)
+		(property "Link" "https://robu.in/product/1-month-warranty-262/"
+			(at 74.93 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "1.39"
+			(at 74.93 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 74.93 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3722a04c-8702-4746-ab61-ca86e2ad0b5f")
 		)
@@ -11571,7 +12796,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "C19")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -11588,7 +12813,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b59f3b88-878b-4de6-9285-32a3b34fd2c9")
-		(property "Reference" "C4"
+		(property "Reference" "C13"
 			(at 180.086 50.038 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11643,6 +12868,39 @@
 				)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 180.34 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 180.34 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 180.34 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ad88cf56-9059-425a-9e3d-af5c8af91573")
 		)
@@ -11652,88 +12910,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 97.79 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b84dd951-75b0-4668-bf57-9b64e226e819")
-		(property "Reference" "C25"
-			(at 98.552 112.268 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "12uF"
-			(at 98.552 116.332 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 98.7552 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 97.79 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "82322ea4-8746-4244-b517-a515efe7a68f")
-		)
-		(pin "1"
-			(uuid "66c95b72-563d-4c35-91d5-4c24887cb2e1")
-		)
-		(instances
-			(project "kicad"
-				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "C25")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -11750,7 +12927,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9d0c72a-ff9c-459e-9c5e-e0a3a14c4a2c")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR02"
 			(at 26.67 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -11810,7 +12987,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "#PWR033")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -11828,7 +13005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb01c4c3-d6e2-460d-9661-79805776b5e6")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR028"
 			(at 236.22 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -11888,7 +13065,122 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "#PWR031")
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 97.79 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfc7b2bd-c9d3-41aa-b310-a234da0f6ead")
+		(property "Reference" "C22"
+			(at 101.6 112.1409 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22 uF"
+			(at 101.6 114.6809 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.3"
+			(at 98.7552 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 97.79 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" "https://robu.in/product/ves220m1etr-0505-lelon-22uf-25v-%C2%B120-smdd5xl5-3mm-aluminum-electrolytic-capacitors-smd-rohs-2/"
+			(at 97.79 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "1.94"
+			(at 97.79 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 97.79 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9c1f622f-87c9-4f8d-b37f-0fc6e7232a18")
+		)
+		(pin "1"
+			(uuid "1e64212c-5d02-4a2b-8123-1942088f80b2")
+		)
+		(instances
+			(project "kicad"
+				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -11905,7 +13197,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1a9d289-8773-4971-a1da-ed6949829309")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR016"
 			(at 153.67 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -11965,7 +13257,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "#PWR08")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -11982,7 +13274,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1b0b9ab-31fa-4992-a276-16a5ae501f57")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 120.396 33.528 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12037,6 +13329,28 @@
 				)
 			)
 		)
+		(property "Link" "http://robu.in/product/tcc0805x7r104k500dt-cctc-smt-ceramic-capacitors-0805-x7r-104k100nf%C2%B110-rated-voltage50v-thickness0-85mmtape/"
+			(at 120.65 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.97"
+			(at 120.65 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4484a7a7-641e-42f3-84ed-9c27eb3629f9")
 		)
@@ -12046,7 +13360,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -12063,7 +13377,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d8bf22be-cd01-4b24-acc0-eeaefd032452")
-		(property "Reference" "C10"
+		(property "Reference" "C9"
 			(at 171.196 95.758 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12118,6 +13432,39 @@
 				)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 171.45 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 171.45 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 171.45 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c87e94a6-edb5-44a1-94df-1b8af68fba6f")
 		)
@@ -12127,7 +13474,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "C10")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -12145,7 +13492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9310a94-cabd-42ca-a48f-6a89530fb411")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR027"
 			(at 229.87 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -12205,7 +13552,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "#PWR020")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -12223,7 +13570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0e09163-d1d0-4ded-be00-2e25f89cb458")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR032"
 			(at 276.86 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -12283,7 +13630,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "#PWR04")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -12301,7 +13648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb0c21d3-fa2a-44fb-a471-88afcc6a046d")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR07"
 			(at 76.2 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -12361,7 +13708,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "#PWR03")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -12378,7 +13725,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f101ebc8-ad53-4d79-a5ac-810fc8b31e4d")
-		(property "Reference" "R6"
+		(property "Reference" "R11"
 			(at 275.59 34.036 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12431,6 +13778,39 @@
 				)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 275.59 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 275.59 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 275.59 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4c3d407e-1d29-469a-9c64-8c6d4808a547")
 		)
@@ -12440,7 +13820,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "R6")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -12458,7 +13838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f89e8f07-6473-483b-85a1-d3e5b56b1797")
-		(property "Reference" "SW3"
+		(property "Reference" "SW1"
 			(at 220.98 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12511,6 +13891,28 @@
 				)
 			)
 		)
+		(property "Link" "https://robu.in/product/ss-12f21g5-slide-1p2t-angled-switchheight5mm/"
+			(at 220.98 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "2.50"
+			(at 220.98 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4d8b5b8e-3d3e-4735-b91a-45dfaffd85b8")
 		)
@@ -12520,7 +13922,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "SW3")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -12538,7 +13940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fabd09f6-1c73-45d9-8e6a-6384dbbd76cd")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 24.13 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -12598,7 +14000,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -12616,7 +14018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb62a823-e5e8-47bc-b995-83b06e9e9fbe")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR011"
 			(at 120.65 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -12676,7 +14078,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "#PWR013")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -12693,7 +14095,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fca89e12-edf2-4974-b5e8-80063ff52143")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 128.016 33.528 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12748,6 +14150,28 @@
 				)
 			)
 		)
+		(property "Link" "https://robu.in/product/10uf-10000nf-25-v-capacitor-0805-smd-package-pack-of-10/"
+			(at 128.27 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "3.24"
+			(at 128.27 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "719bdba7-b63e-4008-b585-603b640ab9af")
 		)
@@ -12757,7 +14181,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -12775,7 +14199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcafa260-1208-4e81-a2e0-f198868c75d7")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 158.75 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12828,6 +14252,61 @@
 				)
 			)
 		)
+		(property "Link" "https://robu.in/product/ld1117s50tr-stmicroelectronics-voltage-regulator/"
+			(at 158.75 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "17"
+			(at 158.75 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 158.75 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 158.75 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 158.75 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "f758a8e0-cb38-4098-ae1e-4ffc91744b4c")
 		)
@@ -12840,7 +14319,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "U1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -12858,7 +14337,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fcb80799-3f5c-4983-9a6a-39ff2d2476da")
-		(property "Reference" "BT1"
+		(property "Reference" "BT2"
 			(at 232.156 30.226 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12913,8 +14392,8 @@
 				)
 			)
 		)
-		(property "Sim.Device" "V"
-			(at 229.87 33.02 0)
+		(property "Link" "https://hubtronics.in/1s-18650-holder-smd?srsltid=AfmBOor3Tc6zfQg7KerfEIS3zsZkHQCD7dC4h8XjsbvY8JfF8_P2kyrYU8s"
+			(at 229.87 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12924,8 +14403,8 @@
 				)
 			)
 		)
-		(property "Sim.Type" "DC"
-			(at 229.87 33.02 0)
+		(property "Price" "57.82"
+			(at 229.87 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12935,8 +14414,30 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 229.87 33.02 0)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 229.87 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 229.87 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 229.87 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12955,7 +14456,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "BT1")
+					(reference "BT2")
 					(unit 1)
 				)
 			)
@@ -12972,7 +14473,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fcee0822-f9d8-4669-bceb-bc197a5a7832")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR024"
 			(at 193.04 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -13032,7 +14533,7 @@
 		(instances
 			(project "kicad"
 				(path "/a09c365b-cedb-4709-b58e-107a64f8cf0e"
-					(reference "#PWR09")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)

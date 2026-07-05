@@ -119,6 +119,7 @@ void app_main(void)
 
     lv_indev_t *touch_indev = lv_indev_create();
     touch_tsc2046_register_lvgl(touch_indev);
+    lv_indev_set_display(touch_indev, display);
 
     const esp_timer_create_args_t tick_timer_args = {
         .callback = lvgl_tick_cb,

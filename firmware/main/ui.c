@@ -107,6 +107,7 @@ void ui_init(void)
     lv_obj_set_style_bg_opa(border, LV_OPA_TRANSP, 0);
     lv_obj_set_size(border, BOARD_LCD_H_RES, BOARD_LCD_V_RES);
     lv_obj_align(border, LV_ALIGN_CENTER, 0, 0);
+    lv_obj_remove_flag(border, LV_OBJ_FLAG_CLICKABLE);
 
     lv_timer_create(ui_update_timer_cb, 1000, NULL);
 }

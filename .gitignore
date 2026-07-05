@@ -1,16 +1,37 @@
+# ===========================================
+# KiCad
+# ===========================================
+
+# Autosaves
+_autosave-*
+*.kicad_prl
+
+# Lock files
+*.lck
+~*.lck
+~*.kicad_*
+
+# Backup folder
+kicad/kicad-backups/
+
+# Cache
+fp-info-cache
+
+# Generated fabrication files
+kicad/production/
+
+# KiCad temporary
+*.tmp
+*.bak
+*.orig
+*.dcm~
+
+# ===========================================
 # ESP-IDF
+# ===========================================
+
 build/
 **/build/
-
-# CMake
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-compile_commands.json
-
-# Ninja
-.ninja_*
-build.ninja
 
 # ESP binaries
 *.bin
@@ -19,23 +40,59 @@ build.ninja
 *.a
 *.o
 
-# Logs
-*.log
+# ===========================================
+# CMake
+# ===========================================
 
-# VS Code
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# ===========================================
+# Ninja
+# ===========================================
+
+.ninja_*
+build.ninja
+
+# ===========================================
+# Python
+# ===========================================
+
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+
+.venv/
+venv/
+
+# ===========================================
+# Node.js
+# ===========================================
+
+node_modules/
+dist/
+
+# ===========================================
+# IDEs
+# ===========================================
+
 .vscode/
-
-# CLion
 .idea/
 
+# ===========================================
+# Logs
+# ===========================================
+
+*.log
+
+# ===========================================
 # OS
+# ===========================================
+
 .DS_Store
 Thumbs.db
-
-# Python
-__pycache__/
-*.pyc
-
-# Temporary
-*.tmp
-*.bak
+desktop.ini
