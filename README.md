@@ -20,9 +20,9 @@ SoilMetrics is an **affordable soil health monitoring system** to measure key so
 
 ## Features:
 
-- Measure soil moisture, temeperature, pH, electrical conductivity, and NPK.
+- Measure soil moisture, temperature, pH, electrical conductivity, and NPK.
 - Remote connectivity via LTE using SIM7080G module.
-- Touch Based Interface to view sensor readings, AI recommedations, weather reports.
+- Touch Based Interface to view sensor readings, AI recommendations, weather reports.
 - Offline Data Logging in a onboard SD card.
 - GPS connectivity for accurate weather reports via openweather API.
 - on device rechargeable batteries (2S 18650) for portability.
@@ -57,11 +57,92 @@ SoilMetrics/
 ## Schematic:
 
 ![Page-01-Schematic](assets/page_001.png)
-> This page has all the power realted things of the device including Type-c for programming, barrel jack for charging, BMS circuitory, Buck Converter and LDOs
+> Contains all the power realted things of the device including Type-c for programming, barrel jack for charging, BMS circuitory, Buck Converter and LDOs
 
 ![Page-02-Schematic](assets/page_002.png)
-> This page has MCU, Buttons, LTE module, Receiver, SD card, sim slot etc
+> Contains the MCU, Buttons, LTE module, Receiver, SD card, sim slot etc
 
 ## PCB:
 
-It is a 4 layer PCB board which you can checkout [here](kicad/)
+The hardware is designed on a 4 layer PCB, The complete design files are available [here](kicad/)
+
+![Pcb](assets/pcb-layout.png)
+![3D-pcb](assets/3D-pcb.png)
+![3D-pcb-back](assets/3D-pcb-back.png)
+
+---
+
+# Enclosure
+| File | Download Link | Description|
+|------|---------------|------------|
+|Top Body Enclosure|[here](cad/src/Top-Body.f3d)|This is the source file of the top body
+|Bottom plate|[here](cad/src/Bottom-Plate.f3d)|This is the source file of the Bottom plate
+|Top Body Enclosure|[here](cad/exports/Top-Body.3mf)|This is the printable file of the top body
+|Top Body Enclosure|[here](cad/exports/Bottom-Plate.3mf)|This is the printable file of the top body
+
+---
+
+# Firmware
+> **Note:** The complete firmware is not available as of now, there are lot of things that can only be written after making actual hardware, so i will update the repo with complete firmware after build. For now its just a test code.
+
+Configure ESP-IDF
+
+```bash
+idf.py set-target esp32s3
+```
+
+Build
+
+```bash
+idf.py build
+```
+
+---
+
+## Flashing Firmware
+
+Connect the board using USB.
+
+Flash
+
+```bash
+idf.py flash
+```
+
+Open Serial Monitor
+
+```bash
+idf.py monitor
+```
+
+If flashing fails, place the board into download mode according to your ESP32-S3 hardware design and retry the command.
+
+---
+# How to Assemble
+
+1. Get the PCB manufactured using this [file](production/gerber.zip).
+2. Order components listed in the BOM.csv
+3. Assemble the board using KiCad source file as reference.
+4. Inspect the PCB before powering it.
+5. Connect teh TFT display, antennas, and soil sensor.
+
+## Enclosure:
+> Enclosure is not complete yet due to the online unavailability of 3d model of the Display. After getting the display i'll update the repo with correct files
+
+---
+
+# Bill of Materials
+
+The completed BOM of the components used on PCB is in [production/bom.csv](production/bom.csv).
+
+And expect those you need to order these:
+|Component | Link | Price | 
+|----------|------|-------|
+|SmartElex 3.5" TFT Resistive Touch Display 320x480| [here](https://robu.in/product/smartelex-3-5-tft-resistive-touch-display-320x480/)|917 rs
+| ZTS-3002-TR-*-N01|[here]( https://robu.in/product/multi-parameter-sensor/)|4396 rs
+|2 x 18650 batteries | [here](https://robu.in/product/sony-vtc6-18650-li-ion-3000-mah-battery/)|699 rs each
+| PCB + Stencil | I'll get it from LionCircuits| Sub-8K rs
+
+---
+
+*Made with 🔬🧪 ~~(science)~~ by aryan-git-byte*
