@@ -96,3 +96,24 @@ dist/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# KiCad
+*.kicad_prl
+*.lck
+_autosave-*
+fp-info-cache
+
+# Exports
+*.pcb3d
+pcb.step
+
+# Logs
+*_missing3Dmodels.txt
+kicad_log_*.txt
+
+# Blender backups
+*.blend1
+
+# KiCad backups
+kicad-backups/
+production/
