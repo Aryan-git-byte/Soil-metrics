@@ -146,3 +146,6 @@ And expect those you need to order these:
 ---
 
 *Made with 🔬🧪 ~~(science)~~ by aryan-git-byte*
+
+```
+# AI USE: AI has assisted me in firmware/
