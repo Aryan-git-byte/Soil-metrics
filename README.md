@@ -114,11 +114,12 @@ If flashing fails, place the board into download mode according to your ESP32-S3
 ---
 # How to Assemble
 
-1. Get the PCB manufactured using this [file](production/gerber.zip).
-2. Order components listed in the BOM.csv
-3. Assemble the board using KiCad source file as reference.
-4. Inspect the PCB before powering it.
-5. Connect teh TFT display, antennas, and soil sensor.
+1. order all the components and pcb
+2. solder them
+3. flash the firmware
+4. test it
+5. 3d print the enclousure
+6. put them all together
 
 ## Enclosure:
 > Enclosure is not complete yet due to the online unavailability of 3d model of the Display. After getting the display i'll update the repo with correct files
