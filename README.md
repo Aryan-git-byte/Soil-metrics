@@ -19,15 +19,8 @@
 SoilMetrics is an **affordable soil health monitoring system** to measure key soil parameters in real time such as **NPK, EC, pH, Moisture, and Temperature.** which will allow small farmers to make scientific decision regarding their soil health and conditions which can help them do sustainable farming.
 
 # What can it do?
-This device can measure soil moisture, temperature, pH, electrical conductivity, and NPK
-## Features:
+This device can measure soil moisture, temperature, pH, electrical conductivity, and NPK. and then can send all that data to a cloud server using LTE. it also offers on device touch display to view sensor readings, ai reccomendations, weather reports etc. with help of offline sd card based data logging, and rechargeable 2S 18650 its a near perfect solution to deploy on farmsites for primary soil health monitoring.
 
-- Measure soil moisture, temperature, pH, electrical conductivity, and NPK.
-- Remote connectivity via LTE using SIM7080G module.
-- Touch Based Interface to view sensor readings, AI recommendations, weather reports.
-- Offline Data Logging in a onboard SD card.
-- GPS connectivity for accurate weather reports via openweather API.
-- on device rechargeable batteries (2S 18650) for portability.
 ## Hardware Specifications:
 
 - **MCU** - [ESP32-S3-WROOM1U-N16R8](https://documentation.espressif.com/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)
