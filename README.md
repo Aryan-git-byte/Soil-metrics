@@ -16,16 +16,10 @@
 
 # Overview:
 
-SoilMetrics is an **affordable soil health monitoring system** to measure key soil parameters in real time including **NPK, EC, pH, Moisture, and Temperature.** Which can empower small and marginal farmers to make **informed decisions** for improved crop management and sustainable agriculture.
+SoilMetrics is an **affordable soil health monitoring system** to measure key soil parameters in real time such as **NPK, EC, pH, Moisture, and Temperature.** which will allow small farmers to make scientific decision regarding their soil health and conditions which can help them do sustainable farming.
 
-## Features:
-
-- Measure soil moisture, temperature, pH, electrical conductivity, and NPK.
-- Remote connectivity via LTE using SIM7080G module.
-- Touch Based Interface to view sensor readings, AI recommendations, weather reports.
-- Offline Data Logging in a onboard SD card.
-- GPS connectivity for accurate weather reports via openweather API.
-- on device rechargeable batteries (2S 18650) for portability.
+# What can it do?
+This device can measure soil moisture, temperature, pH, electrical conductivity, and NPK. and then can send all that data to a cloud server using LTE. it also offers on device touch display to view sensor readings, ai reccomendations, weather reports etc. with help of offline sd card based data logging, and rechargeable 2S 18650 its a near perfect solution to deploy on farmsites for primary soil health monitoring.
 
 ## Hardware Specifications:
 
@@ -87,13 +81,13 @@ The hardware is designed on a 4 layer PCB, The complete design files are availab
 
 Configure ESP-IDF
 
-```bash
+```
 idf.py set-target esp32s3
 ```
 
 Build
 
-```bash
+```
 idf.py build
 ```
 
@@ -105,13 +99,13 @@ Connect the board using USB.
 
 Flash
 
-```bash
+```
 idf.py flash
 ```
 
 Open Serial Monitor
 
-```bash
+```
 idf.py monitor
 ```
 
@@ -120,11 +114,12 @@ If flashing fails, place the board into download mode according to your ESP32-S3
 ---
 # How to Assemble
 
-1. Get the PCB manufactured using this [file](production/gerber.zip).
-2. Order components listed in the BOM.csv
-3. Assemble the board using KiCad source file as reference.
-4. Inspect the PCB before powering it.
-5. Connect teh TFT display, antennas, and soil sensor.
+1. order all the components and pcb
+2. solder them
+3. flash the firmware
+4. test it
+5. 3d print the enclousure
+6. put them all together
 
 ## Enclosure:
 > Enclosure is not complete yet due to the online unavailability of 3d model of the Display. After getting the display i'll update the repo with correct files
@@ -141,8 +136,11 @@ And expect those you need to order these:
 |SmartElex 3.5" TFT Resistive Touch Display 320x480| [here](https://robu.in/product/smartelex-3-5-tft-resistive-touch-display-320x480/)|917 rs
 | ZTS-3002-TR-*-N01|[here]( https://robu.in/product/multi-parameter-sensor/)|4396 rs
 |2 x 18650 batteries | [here](https://robu.in/product/sony-vtc6-18650-li-ion-3000-mah-battery/)|699 rs each
-| PCB + Stencil | I'll get it from LionCircuits| Sub-8K rs
+| PCB + Stencil | | Sub-8K rs
 
 ---
 
 *Made with 🔬🧪 ~~(science)~~ by aryan-git-byte*
+
+```
+# AI USE: AI has assisted me in firmware/
